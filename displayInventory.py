@@ -1,7 +1,7 @@
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'ring': 1, 'apple': 12}
 
 def displayInventory(inventory):
-    print("Inventory: ")
+    print("Inventory:")
 
     #This is to re order to match desired output.
     for key in ['apple','gold coin','rope','torch','ring']:
