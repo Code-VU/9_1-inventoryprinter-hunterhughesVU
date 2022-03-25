@@ -8,10 +8,10 @@ def displayInventory(inventory):
    #     stuff[key] = stuff.pop(key)
 
     #Print the inventory
-    for item in stuff:
-        print(stuff[item], item)
+    for item in inventory:
+        print(inventory[item], item)
 
     #Print total
-    print("Total number of items:", sum(stuff.values()))
+    print("Total number of items:", sum(inventory.values()))
 
 ##displayInventory(stuff)
