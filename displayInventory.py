@@ -14,4 +14,4 @@ def displayInventory(inventory):
     #Print total
     print("Total number of items:", sum(stuff.values()))
 
-displayInventory(stuff)
+##displayInventory(stuff)
