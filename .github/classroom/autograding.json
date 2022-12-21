@@ -3,7 +3,7 @@
     {
       "name": "Autograder",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest testProgram.py -s",
+      "run": "pytest -s",
       "input": "",
       "output": "",
       "comparison": "included",
